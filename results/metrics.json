@@ -1,0 +1,27 @@
+{
+  "gpt2_finetuned": {
+    "parameters": 124439808,
+    "avg_latency_ms_per_example": 813.4099861995006,
+    "bleu4": 4.118958577846497,
+    "rougeL": 0.18430962546337973,
+    "bertscore_f1": 0.7603412866592407
+  },
+  "t5_small_finetuned": {
+    "parameters": 60506624,
+    "avg_latency_ms_per_example": 280.4960654039557,
+    "bleu4": 6.292964954142325,
+    "rougeL": 0.21659796826818176,
+    "bertscore_f1": 0.7834466695785522
+  },
+  "custom_lightweight": {
+    "parameters": 12173952,
+    "avg_latency_ms_per_example": 179.67329016731432,
+    "bleu4": 1.9044871951641453,
+    "rougeL": 0.08492546814499072,
+    "bertscore_f1": 0.6851872801780701
+  },
+  "_derived": {
+    "custom_speedup_vs_gpt2": 4.527161413040535,
+    "custom_bertscore_retention_vs_gpt2": 0.901157535701659
+  }
+}
